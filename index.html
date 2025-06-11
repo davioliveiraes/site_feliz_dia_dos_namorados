@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Amor ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Corações flutuantes -->
+    <div class="hearts" id="hearts"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Feliz Dia dos Namorados! ❤️</h1>
+        <p class="subtitle">Uma surpresa especial para você, meu amor</p>
+        <button class="scroll-btn" onclick="scrollToSection('nossa-historia')">
+            Descobrir nosso amor 💕
+        </button>
+    </section>
+
+    <!-- Nossa História -->
+    <section id="nossa-historia" class="section nossa-historia">
+        <h2>Nossa História de Amor</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>🌟 Primeiro Encontro</h3>
+                <p>O amor chegou de mansinho naquela tarde entre amigos, crescendo silenciosamente até florescer em nosso primeiro beijo. Durante um mês, cultivei esse sentimento como quem cuida de uma flor rara, até que chegou o momento de declarar: você havia se tornado a dona do meu coração.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>💕 Primeiro Beijo</h3>
+                <p>No doce sabor do nosso primeiro beijo, li uma promessa não dita: a de que seríamos importantes um para o outro. E assim foi - você me mostrou seu carinho genuíno, e eu, encantado, retribuí colocando você no centro dos meus dias.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>🎉 Nosso Aniversário</h3>
+                <p>Cada mês que passa é uma nova aventura ao seu lado. Obrigado por não desistir de mim e sempre prezar pelo nosso relacionamento!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVA SEÇÃO: 2025 - Nosso Beach Tennis -->
+    <section id="beach-tennis-2025" class="section beach-tennis-2025">
+        <h2>2025 - Nossos Momentos no Beach Tennis 🎾</h2>
+        <p class="section-subtitle">O esporte que nos une ainda mais - nossa paixão compartilhada pela quadra de areia</p>
+        
+        <div class="beach-tennis-gallery">
+            <div class="tennis-photo-item">
+                <div class="tennis-photo-container">
+                    <img src="images/bt/bt2.jpeg" alt="Jogando Beach Tennis juntos" class="tennis-photo">
+                    <div class="tennis-overlay">
+                        <h4>Parceiros na Quadra 💪</h4>
+                        <p>Quando jogamos juntos, somos imbatíveis!</p>
+                    </div>
+                </div>
+                <div class="tennis-emoji">🎾</div>
+            </div>
+
+            <div class="tennis-photo-item">
+                <div class="tennis-photo-container">
+                    <img src="images/bt/bt3.jpeg" alt="Treino de Beach Tennis" class="tennis-photo">
+                    <div class="tennis-overlay">
+                        <h4>Treino & Diversão 🌞</h4>
+                        <p>Cada treino é uma desculpa para ficarmos juntos</p>
+                    </div>
+                </div>
+                <div class="tennis-emoji">🎾</div>
+            </div>
+
+            <div class="tennis-photo-item">
+                <div class="tennis-photo-container">
+                    <img src="images/bt/bt1.jpeg" alt="Vitória no Beach Tennis" class="tennis-photo">
+                    <div class="tennis-overlay">
+                        <h4>Celebrando Vitórias 🏖️</h4>
+                        <p>O melhor prêmio é jogar ao seu lado</p>
+                    </div>
+                </div>
+                <div class="tennis-emoji">🎾</div>
+            </div>
+        </div>
+
+        <div class="tennis-message">
+            <p>🎾 No beach tennis descobrimos que somos uma dupla perfeita dentro e fora das quadras. Cada jogo é uma nova aventura juntos! 💕</p>
+        </div>
+    </section>
+
+    <!-- Galeria de Memórias -->
+    <section id="galeria" class="section galeria">
+        <h2>Galeria de Memórias</h2>
+        
+        <!-- Controles dos Anos -->
+        <div class="gallery-controls">
+            <button class="year-btn active" onclick="showYear(1)">1º Ano</button>
+            <button class="year-btn" onclick="showYear(2)">2º Ano</button>
+            <button class="year-btn" onclick="showYear(3)">3º Ano</button>
+            <button class="year-btn" onclick="showYear(4)">4º Ano</button>
+            <button class="year-btn" onclick="showYear(5)">5º Ano</button>
+        </div>
+
+        <!-- Container da Galeria -->
+        <div class="gallery-container">
+            <!-- Slide do 1º Ano -->
+            <div class="gallery-slide active" id="year-1">
+                <h3>Primeiro Ano juntos 💕</h3>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/1ano/f1.2.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/1ano/f1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/1ano/f1.1.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide do 2º Ano -->
+            <div class="gallery-slide" id="year-2">
+                <h3>Segundo Ano de Conhecimento 💖</h3>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/2ano/f2.1.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/2ano/f2.2.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/2ano/f2.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide do 3º Ano -->
+            <div class="gallery-slide" id="year-3">
+                <h3>Terceiro Ano de Cumplicidade 💗</h3>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/3ano/f3.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/3ano/f3.1.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder emoji-only">
+                            <img src="images/3ano/f3.2.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide do 4º Ano -->
+            <div class="gallery-slide" id="year-4">
+                <h3>Quarto Ano de Parceria 💝</h3>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/4ano/f4.1.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/4ano/f4.2.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/4ano/f4.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide do 5º Ano -->
+            <div class="gallery-slide" id="year-5">
+                <h3>Quinto Ano de Amor Eterno 💕</h3>
+                <div class="photo-gallery">
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/5ano/f5.1.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/5ano/f5.jpeg">
+                        </div>
+                    </div>
+                    <div class="photo-item">
+                        <div class="photo-placeholder">
+                            <img src="images/5ano/f5.2.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navegação do Slide -->
+        <div class="slide-navigation">
+            <button class="nav-btn" onclick="previousYear()">‹</button>
+            <button class="nav-btn" onclick="nextYear()">›</button>
+        </div>
+    </section>
+
+    <!-- Carta de Amor -->
+    <section id="carta" class="section carta-amor">
+        <h2>Uma Carta Para Você</h2>
+        <div class="carta-container">
+            <div class="typewriter" id="typewriter">
+                Quando olho para você, vejo muito mais que a mulher que escolhi amar hoje. Vejo a mãe dos nossos futuros filhos, aquela que carregará em seu ventre os frutos do nosso amor e que, ao meu lado, criará pequenos seres que terão seus olhos gentis e meu coração apaixonado. Imagino nossas crianças correndo pela nossa futura casa, enchendo cada canto com risadas e memórias preciosas.Sonho com o dia em que entregaremos as chaves da nossa primeira casa - esse lugar que será nosso refúgio, nosso cantinho no mundo onde construiremos nossa família. Cada tijolo daquela casa será colocado com amor, cada cômodo planejado pensando no nosso futuro juntos. Será lá que acordaremos todos os dias lado a lado, onde faremos nossos planos e realizaremos nossos sonhos. Mal posso esperar pelo dia do nosso casamento, quando diante de Deus, da família e dos amigos, prometeremos amor eterno. Quando eu disser sim no altar, será a confirmação oficial do que meu coração já sabe: que quero envelhecer ao seu lado, dividir cada alegria e superar cada obstáculo de mãos dadas.E sim, sonho até com nosso primeiro carro comprado juntos - não importa se será simples ou luxuoso. O que importa é que será nosso, conquistado pelo nosso esforço, símbolo das nossas vitórias compartilhadas. Imagino nossas viagens, nossos passeios em família, os momentos especiais que viveremos dentro dele. Você não é apenas a pessoa que eu amo - você é minha parceira de vida, minha cúmplice de sonhos, a razão pela qual acordo todos os dias com esperança no coração. Com você, cada projeto se torna possível, cada sonho ganha cor e cada dia vale a pena ser vivido. Obrigado por ser exatamente quem você é e por me permitir sonhar um futuro ao seu lado. Você é, e sempre será, o amor da minha vida.Com todo meu amor e devoção, Davi Oliveira ❤️
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz do Amor -->
+    <section id="quiz" class="section quiz-amor">
+        <h2>Quiz do Nosso Amor</h2>
+        <div class="quiz-container">
+            <div class="quiz-question" id="quiz-question">
+                Carregando pergunta...
+            </div>
+            <div class="quiz-options">
+                <!-- As opções serão carregadas dinamicamente pelo JavaScript -->
+            </div>
+            <div id="quiz-result"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
